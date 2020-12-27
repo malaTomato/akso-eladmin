@@ -6,6 +6,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * @author xiongwu
@@ -22,4 +23,7 @@ public class Information implements Serializable {
     private String title;
     private String link;
     private String content;
+    private Integer status;
+    private LocalDateTime createTime;
+    private LocalDateTime updateTime;
 }
