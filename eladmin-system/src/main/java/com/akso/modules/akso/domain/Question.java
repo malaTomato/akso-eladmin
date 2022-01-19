@@ -14,4 +14,5 @@ public class Question {
     private String type;
     private List<Option> options;
     private String answer;
+    private String placeholder;
 }
